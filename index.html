@@ -13,30 +13,42 @@
     <title>Particles</title>
 </head>
 
-<body>
+<body class="body">
     <div class="social-links">
-            <h2>Developer</h2>
-            <hr>
-            <div><img src="Surajdev.jpg" alt=""></div>
-            <p class="p1">Suraj Ganguly</p>
-            <p class="p1">NIT JSR | 2019</p>
-            <h3>Front End Developer</h3>
-            <a href="https://www.facebook.com/surajganguly18/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com/pro_panda_18/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/suraj-ganguly-240507212/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/Suraj18893" target="_blank"><i class="fab fa-github"></i></a>
-            <br>
-            
-          </div>
-
-
-
-    <div id="particles-js">
-        
-        
+        <h2>Developer</h2>
+        <hr>
+        <div><img src="Surajdev.jpg" alt=""></div>
+        <p class="p1">Suraj Ganguly</p>
+        <p class="p1">NIT JSR | 2019</p>
+        <h3>Front End Developer</h3>
+        <a href="https://www.facebook.com/surajganguly18/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/pro_panda_18/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/suraj-ganguly-240507212/" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Suraj18893" target="_blank"><i class="fab fa-github"></i></a>
+        <br>
+        <!-- <p>© 2021 Suraj's Barber Shop</p> -->
     </div>
+
+
+
+    <div id="particles-js"></div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".social-links"), {
+            max: 25,
+            speed: 400
+        });
+
+        //It also supports NodeList
+
+    </script>
+
+
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+
 </body>
-<script src="script.js"></script>
-<script src="script1.js"></script>
+
 
 </html>
